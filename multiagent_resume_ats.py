@@ -18,7 +18,7 @@ import docx2txt
 import os
 
 # Load model
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('./local_model')
 
 # Google Calendar Scopes
 SCOPES = ['https://www.googleapis.com/auth/calendar']
